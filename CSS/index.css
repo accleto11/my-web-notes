@@ -169,5 +169,20 @@ footer {
             color: white;
         }
 
-/* Mobile */
+/* Responsive Web Design - Media Queries */
+
+@media only screen and (max-width: 768px) {
+
+    header, nav, main #nav {
+        display: none;
+    }
+
+    main article {
+        width: 100%;
+    }
+
+    main article .section {
+        flex-wrap: wrap;
+    }
+}
 
